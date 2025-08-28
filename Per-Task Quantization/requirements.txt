@@ -1,0 +1,21 @@
+# Core
+torch            # install your CUDA-specific wheel separately if needed
+transformers>=4.42
+accelerate>=0.33
+datasets>=2.20
+sentencepiece
+protobuf>=4.25
+tqdm
+pandas
+scikit-learn
+k-means-constrained
+einops
+
+# Optional (used if present)
+lm-eval==0.4.3   # MMLU via lm-eval-harness (safe to omit)
+
+# Quant backends you *may* use later (we clone via git in start.sh instead):
+# llm-awq
+# OmniQuant
+# SpinQuant
+# MoQAE
